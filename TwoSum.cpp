@@ -1,4 +1,4 @@
-#include "globe.h"
+#include "help.h"
 
 class Solution {
 public:
@@ -19,7 +19,7 @@ public:
     }
 };
 
-void main()
+int  main()
 {
 	Solution sln;
 	vector<int> input;
@@ -29,4 +29,5 @@ void main()
 	input.push_back(0);
 	vector<int> res=sln.twoSum(input,0);
 	cout<<"sdfs"<<endl;
+   return 0;
 }
